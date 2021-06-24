@@ -1,0 +1,22 @@
+body {
+  background-image: url(afternoon.jpg);
+  background-repeat: no-repeat;
+  background-position:center;
+  padding: 0;
+  margin: 0;
+  background-attachment: fixed;
+  background-size: cover;
+  
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-image: url(morning.jpg);
+    background-repeat: no-repeat;
+  background-position:center;
+  padding: 0;
+  margin: 0;
+  background-attachment: fixed;
+  background-size: cover;
+  }
+}
